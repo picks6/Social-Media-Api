@@ -3,7 +3,6 @@ const router = require("express").Router();
 const {
   getAllUsers,
   createUser,
-  updateUser,
   deleteUser,
   getUserById,
   addFriend,
@@ -14,7 +13,7 @@ const {
 router.route("/").get(getAllUsers).post(createUser);
 
 // Assign get one, update one, and delete one
-router.route("/:id").get(getUserById).put(updateUser).delete(deleteUser);
+router.route("/:id").get(getUserById).delete(deleteUser);
 
 // Assign post and delete friend routes
 router.route("/:id/friends/:friendsId").post(addFriend).delete(removeFriend);
