@@ -19,9 +19,13 @@ A basic mongoDB API application
 # Licenses
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Contributions
+MongoDB, Insomnia
 
 # Test
-Tested in insomnia, video is included
+Tested in insomnia, video is included 
+
+https://youtu.be/zols1wzSmT4
+
 # Github
 picks6
 # Email
